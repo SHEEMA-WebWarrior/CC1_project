@@ -1,0 +1,25 @@
+/* Register.css */
+div {
+    overflow: visible; /* Ensure the content is not hidden */
+    padding: 10px; /* Optional: Add padding to give more space inside the container */
+    box-sizing: border-box; /* Ensures padding is included in the height/width */
+}
+
+h2 {
+    margin: 0; /* Remove any unnecessary margin that might cause overflow */
+    padding: 10px 0; /* Add padding for spacing */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333;
+}
+
+label {
+    display: block;
+ /* Adjust this value to reduce the space between the label and the input */
+}
+
+input {
+    width: 100%; /* This ensures the input fields take up the full width of the container */
+    padding: 8px; /* You can adjust padding if needed */
+    box-sizing: border-box;
+}
+
